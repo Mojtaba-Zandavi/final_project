@@ -65,3 +65,32 @@ button:hover{
   background-color: #4A55A2;
   cursor: pointer;
 }
+
+
+.form2{
+  width: 380px;
+  position: absolute;
+  right: -55px;
+  height: 400px;
+  background-color: #eeeeee;
+  transform: translateY(30px);
+  border-radius: 150px 150px 0px 0px;
+  transition: 2s;
+}
+
+.form1 form{
+  margin-top: 25px;
+}
+
+.form2 form{
+  margin-top: 30px;
+}
+
+#login_{
+  font-size: 25px;
+  font-weight: bold;
+  width: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #4A55A2;
+  cursor: pointer;
+}
