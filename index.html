@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
     <title>Sign in form</title>
 </head>
 <body>
@@ -10,20 +11,19 @@
 
 
         <div class="form1">
-            <label id="h1">Sign up</label>
+            <label for="check" id="h1">Sign up</label>
             <form>
                 <input type="text" placeholder="Username">
                 <input type="email" placeholder="Eamil">
                 <input type="password" placeholder="Password">
-                <link rel="stylesheet" href="./style.css">
             </form>
             <button>Sign up</button>
         </div>
 
-        <input hidden type="checkbox">
+        <input id="check" hidden type="checkbox">
         
         <div class="form2">
-            <label id="login_">Login</label>
+            <label id="login_" for="check">Login</label>
             <form>
                 <input type="email" placeholder="Email">
                 <input type="password" placeholder="Password">

@@ -94,3 +94,7 @@ button:hover{
   color: #4A55A2;
   cursor: pointer;
 }
+
+#check:checked + .form2{
+  transform: translateY(-260px);
+}
